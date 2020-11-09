@@ -1,3 +1,3 @@
-# homepage
+# home
 personal homepage<br>
- https://kevvy206.github.io/homepage/
+ https://kevvy206.github.io/home/
