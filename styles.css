@@ -1,0 +1,140 @@
+/* Colors used
+deep purple #2d1574
+purple light #7143a9
+yellow #ffd22e
+orange #f57f13
+pink #f68bb0
+red #ef2b3f
+light green #a5dc7d
+green  #2b8d66
+light blue #a2e1f6
+blue #5fcbf5 */
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ffd22e;
+  font-family: 'Grandstander', cursive;
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 0 0 3px #2d1574;
+  margin: 0;
+}
+
+h2 {
+  color: #2d1574;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+hr {
+  color: #2d1574;
+  border: dotted 8px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
+}
+
+i {
+  cursor: pointer;
+}
+
+.top-container {
+  position: relative;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 650px;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-title {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.about {
+  margin-top: 125px;
+}
+
+.about img {
+  border-radius: 50%;
+  margin: 100px auto;
+  width: 15%;
+}
+
+.about p {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-component {
+  margin: 100px auto;
+  overflow: auto;
+  width: 40%;
+}
+
+.left-pic {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.right-pic {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.portfolio-heading {
+  margin-top: 50px;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 225px;
+}
+
+.card-body p {
+  margin-bottom: 8px;
+}
+
+.contact p {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #2d1574;
+  height: 120px;
+  padding-top: 20px;
+}
+
+.bottom-container img {
+  margin: 0 10px;
+}
+.bottom-container p {
+  color: white;
+  display: inline-block;
+
+}

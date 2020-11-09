@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>I'm Kevin</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/06f44a448d.js" crossorigin="anonymous"></script>
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Top container: intro with background image-->
+  <div class="top-container">
+    <div class="intro">
+      <h1 class="intro-title">I'm Kevin.</h1>
+      <h1 class="intro-title">A web developer.</h1>
+    </div>
+  </div>
+
+  <!-- Middle container: about, skills, portfolio, contact-->
+  <div>
+    <!-- About -->
+    <div class="about">
+      <h1>Hi.</h1>
+      <img src="images/my-photo.png" alt="My Photo">
+      <p>I am a full stack web developer, junior-level, who loves to design experience. I can build web products for you, as an employee or a freelancer. I live in Seoul, Korea, but anywhere can be my workplace, my home.</p>
+    </div>
+
+    <hr>
+
+    <!-- Skills -->
+    <div class="skills">
+      <h1>Skills</h1>
+      <div class="skill-component">
+        <img class="left-pic" src="images/frontend.png" alt="Frontend Image">
+        <h2>Frontend Development</h2>
+        <p>I can develop frontend UI using the following tools: <strong>jQuery, Bootstrap, and React.</strong> I can create simple designs, having learned basic design and color theory.</p>
+      </div>
+
+      <div class="skill-component">
+        <img class="right-pic" src="images/backend.png" alt="Backend Image">
+        <h2>Backend Development</h2>
+        <p>I can develop backend system using the following tools: <strong>Node.js, Express, MongoDB, and Mongoose.</strong> Having learned data engineering, I have experience with other DBs, both SQL(PostgreSQL, Oracle, SQLite) and NoSQL(Apache
+          Cassandra).</p>
+      </div>
+
+      <div class="skill-component">
+        <img class="left-pic" src="images/languages.png" alt="">
+        <h2>Languages</h2>
+        <p>HTML, CSS, JavaScript, SQL, Unix, and Python. </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Portfolio -->
+    <div class="portfolio">
+      <h1>Portfolio</h1>
+      <div class="album py-5 ">
+        <!-- Frontend Area -->
+        <div class="container">
+          <h2>Frontend</h2>
+          <div class="row">
+            <!-- Cards -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://kevvy206.github.io/simon-game/" target="_blank"><img src="images/thumbnails/simon-game.png" alt="Simon Game"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Simon Game</h3>
+                  <p class="card-text">See how long you can remember patterns!</p>
+                  <p class="card-text">#jQuery</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://kevvy206.github.io/tindog-project/" target="_blank"><img src="images/thumbnails/tindog-project.png" alt="TinDog Project"></a>
+                <div class="card-body">
+                  <h3 class="card-text">TinDog Project</h3>
+                  <p class="card-text">Meet new and interesting dogs nearby. Mobile-responsive.</p>
+                  <p class="card-text">#Bootstrap</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://kevvy206.github.io/drum-kit/" target="_blank"><img src="images/thumbnails/drum-kit.png" alt="Drum Kit"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Drum Kit</h3>
+                  <p class="card-text">Press keys shown on images, or click on them.</p>
+                  <p class="card-text">#JavaScript DOM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Area -->
+        <div class="container">
+          <h2 class="portfolio-heading">Backend</h2>
+          <div class="row">
+            <!-- Cards -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://mighty-ridge-87497.herokuapp.com/" target="_blank"><img src="images/thumbnails/mailchimp-api.png" alt="Newsletter Signup"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Newsletter Signup (Mailchimp API)</h3>
+                  <p class="card-text">Sign up to my newsletter (not running newsletter at the moment)!</p>
+                  <p class="card-text">#API &nbsp;#Mailchimp</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Engineering Area -->
+        <div class="container">
+          <h2 class="portfolio-heading">Data Engineering</h2>
+          <div class="row">
+            <!-- Cards -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://github.com/kevvy206/data-modeling-with-postgresql" target="_blank"><img src="images/thumbnails/n_a.png" alt="Not Applicable"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Data Modeling with PostgreSQL</h3>
+                  <p class="card-text">"ETL"ing with PostgreSQL</p>
+                  <p class="card-text">#SQL &nbsp;#Postgres &nbsp;#Python</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://github.com/kevvy206/data-modeling-with-apache-cassandra" target="_blank"><img src="images/thumbnails/n_a.png" alt="Not Applicable"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Data Modeling with Apache Cassandra</h3>
+                  <p class="card-text">"ETL"ing with Apache Cassandra</p>
+                  <p class="card-text">#NoSQL &nbsp;#Cassandra &nbsp;#Python</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <a href="https://github.com/kevvy206/data-warehousing-on-aws-redshift" target="_blank"><img src="images/thumbnails/n_a.png" alt="Not Applicable"></a>
+                <div class="card-body">
+                  <h3 class="card-text">Data Warehousing on AWS Redshift</h3>
+                  <p class="card-text">"ETL"ing on AWS Redshift</p>
+                  <p class="card-text">#Cloud &nbsp;#AWS &nbsp;#Python</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paste new card section below this line -->
+    <hr>
+
+    <!-- Contact -->
+    <div class="contact">
+      <h1>Contact Kevin</h1>
+      <p>I am available as an employee or a freelancer. Please contact me at <b>kevvy206@gmail.com</b> <i id="copyEmail" class="far fa-copy"></i>. Thank you for visiting.</p>
+    </div>
+
+  </div>
+
+  <div class="bottom-container">
+    <img src="images/bottom-image1.png" alt="Monster Image">
+    <p>&copy;2020 Kevin Kim</p>
+    <img src="images/bottom-image2.png" alt="Monster Image">
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
